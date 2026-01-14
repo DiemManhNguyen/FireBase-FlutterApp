@@ -49,8 +49,4 @@ Tải mã nguồn về máy tính của bạn.
 
 ### Bước 2: Cài đặt các gói phụ thuộc
 Mở terminal tại thư mục gốc của dự án và chạy lệnh:
-
-```bash
-flutter pub get
-
-###Bước 3
+fullter pub get
