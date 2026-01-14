@@ -63,18 +63,7 @@ iOS: Đảm bảo file GoogleService-Info.plist đã nằm trong thư mục ios/
 Chọn thiết bị giả lập (Emulator) hoặc thiết bị thật và chạy: flutter run
 
 ### 📂 Cấu trúc thư mục
-flutter_app_1771020152/
-├── android/             # Cấu hình native Android (chứa google-services.json)
-├── ios/                 # Cấu hình native iOS
-├── lib/
-│   ├── firebase_options.dart # Cấu hình kết nối Firebase tự động
-│   ├── main.dart        # Điểm khởi chạy ứng dụng
-│   └── ...              # Các màn hình và widget khác
-├── fonts/               # Chứa font MaterialIcons-Regular.otf
-├── pubspec.yaml         # Quản lý thư viện và tài nguyên
-├── firebase.json        # Cấu hình Firebase CLI
-└── README.md            # Tài liệu hướng dẫn
-
+<img width="848" height="324" alt="image" src="https://github.com/user-attachments/assets/0909d825-6a17-4b17-b76d-d7ce29ceabeb" />
 
 ### Những điểm tôi đã tối ưu hóa cho bạn:
 
