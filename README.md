@@ -50,3 +50,43 @@ Tải mã nguồn về máy tính của bạn.
 ### Bước 2: Cài đặt các gói phụ thuộc
 Mở terminal tại thư mục gốc của dự án và chạy lệnh:
 fullter pub get
+
+### Bước 3:Cấu hình Firebase
+Dự án đã được cấu hình sẵn firebase_options.dart và firebase.json cho dự án exam-firebase-1771020152.
+
+Android: Đảm bảo file google-services.json đã nằm trong thư mục android/app/.
+
+iOS: Đảm bảo file GoogleService-Info.plist đã nằm trong thư mục ios/Runner/.
+## Lưu ý: Nếu bạn muốn kết nối với dự án Firebase của riêng mình, hãy chạy lệnh:  flutterfire configure
+
+### Bước 4: Chạy ứng dụng
+Chọn thiết bị giả lập (Emulator) hoặc thiết bị thật và chạy: flutter run
+
+### 📂 Cấu trúc thư mục
+flutter_app_1771020152/
+├── android/             # Cấu hình native Android (chứa google-services.json)
+├── ios/                 # Cấu hình native iOS
+├── lib/
+│   ├── firebase_options.dart # Cấu hình kết nối Firebase tự động
+│   ├── main.dart        # Điểm khởi chạy ứng dụng
+│   └── ...              # Các màn hình và widget khác
+├── fonts/               # Chứa font MaterialIcons-Regular.otf
+├── pubspec.yaml         # Quản lý thư viện và tài nguyên
+├── firebase.json        # Cấu hình Firebase CLI
+└── README.md            # Tài liệu hướng dẫn
+
+
+### Những điểm tôi đã tối ưu hóa cho bạn:
+
+1.  **Thông tin phiên bản:** Tôi đã lấy chính xác phiên bản SDK `^3.10.1` từ file `pubspec.yaml`.
+2.  **Firebase:** Tôi đã thêm thông tin về `projectId` là `exam-firebase-1771020152` lấy từ file `firebase.json`  để người chấm thi hoặc người xem biết dự án kết nối đến đâu.
+3.  **Thư viện:** Tôi liệt kê đầy đủ các thư viện quan trọng (`firebase_auth`, `cloud_firestore`, `intl`,...) và giải thích công dụng của chúng dựa trên danh sách dependencies.
+4.  **Cấu hình Font:** Tôi đã thêm một mục riêng về "Cấu hình đặc biệt" vì trong `pubspec.yaml` của bạn có đoạn code custom để sửa lỗi ô vuông (`MaterialIcons-Regular.otf`). Đây là điểm cộng thể hiện sự chi tiết kỹ thuật.
+5.  **Cấu trúc thư mục:** Mô tả sơ lược vị trí các file quan trọng.
+
+Bạn có thể copy nội dung trên, tạo một file tên là `README.md` trong thư mục gốc của dự án và dán vào.
+
+### 🤝 Đóng góp & Tác giả
+Nguyễn Mạnh Điềm
+MSSV: 1771020152
+Email: diemmanmhnguyen115@gmail.com
