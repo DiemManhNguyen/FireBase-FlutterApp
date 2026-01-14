@@ -52,3 +52,5 @@ Mở terminal tại thư mục gốc của dự án và chạy lệnh:
 
 ```bash
 flutter pub get
+
+###Bước 3
